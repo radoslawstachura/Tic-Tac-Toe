@@ -1,0 +1,67 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.body-dark{
+    transition: all 1s;
+    background-color: #131616;
+    color: #FAF3E3;
+}
+
+.body-light{
+    transition: all 1s;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/tic-tac-toe.png"); /*from https://www.toptal.com/designers/subtlepatterns/tic-tac-toe/ */
+    color: #131616;
+}
+
+#toggle{
+    font-size: 1.4rem;
+    border: none;
+}
+
+.toggle-dark{
+    transition: all 1s;
+    color: #FAF3E3;
+    background: none;
+}
+
+.toggle-light{
+    transition: all 1s;
+    color: #131616;
+    background: none;
+}
+
+#game-area{
+    border: 0.23rem solid #FF9F29;
+}
+
+.tile{
+    transition: all 1s;
+    border: 0.23rem solid #FF9F29;
+    background-color: #1A4D2E;
+    min-height: 3rem;
+    justify-content: center;
+}
+
+.tile:hover{
+    cursor: pointer;
+    background-color: #528d06;
+}
+
+.play-again-dark{
+    transition: all 1s;
+    border: none;
+    color: #FAF3E3;
+    background: none;
+}
+
+.play-again-light{
+    transition: all 1s;
+    border: none;
+    background: none;
+    color: #131616;
+}
+
+.big-font{
+    font-size: 1.6rem;
+}
