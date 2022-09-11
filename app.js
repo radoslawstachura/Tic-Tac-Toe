@@ -39,7 +39,7 @@ function toggle(){
             tiles[i].classList.add("tile-dark");
         }
     }
-    if(pAgain.classList[pAgain.classList.length-1] == "play-again-dark"){
+    if(pAgain.classList[pAgain.classList.length-2] == "play-again-dark"){
         pAgain.classList.remove("play-again-dark");
         pAgain.classList.add("play-again-light");
     }
